@@ -1,0 +1,136 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/72eeed5860.js" crossorigin="anonymous"></script>
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+<header>
+  <div class="logo">
+
+  </div>
+  <button class="nav-toggle" aria-label="toggle navigation">
+    <span class="dafak"></span>
+  </button>
+  <nav class="nav">
+    <ul class="nav__list">
+      <li class="nav__item"><a href="#home" class="nav__link">Шапка</a></li>
+      <li class="nav__item"><a href="#skills" class="nav__link">Скиллы</a></li>
+      <li class="nav__item"><a href="#work" class="nav__link">Портфолио</a></li>
+      <li class="nav__item"><a href="#about" class="nav__link">Обо мне</a></li>
+      <li class="nav__item"><a href="#foot" class="nav__link">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+<!-- Приветствие -->
+
+<section class="intro" id="home">
+  <h1 class="section__title section__title--intro">
+    Привет! Меня зовут <strong>Козлов Тимофей</strong>
+  </h1>
+  <p class="section__subtitle section__subtitle--intro">Я не очень фотогеничный. <br> А еще я фронт-энд разработчик.</p>
+  <img src="img/myphoto-01.jpg" alt="Мое неудачное фото" class="intro__img">
+</section>
+
+<!-- Мои работы -->
+
+<section class="my-skills" id="skills">
+  <h2 class="section__title section__title--skills">Что я умею?</h2>
+  <div class="skills">
+      <div class="skill">
+        <h3>HTML + CSS</h3>
+        <p>Около года опыта работы с реальными проектами, верстка элементов для больших заказов (сайдбары, календари, отдельные таблицы etc).</p>
+      </div> <!-- Закрывает блок skill -->
+      <div class="skill">
+        <h3>JavaScript + React</h3>
+        <p>Базовый ДжаваСкрипт (понимание коллбеков, промисов, базовых алгоритмов, ассинхронное программирование, прототипирование), начинаю осваивать Реакт.</p>
+      </div> <!-- Закрывает блок skill -->
+      <div class="skill">
+        <h3>Английский</h3>
+        <p>Свободный разговорный и рабочий английский, работа с английскими документациями, могу принимать участие на встречах с иностранным партнерами.</p>
+      </div> <!-- Закрывает блок skill -->
+      <div class="skill">
+        <h3>World of Warcraft</h3>
+        <p>Бывший бустер в World of Warcraft. Если вам нужно срочно закрыть 15 ключ, убить босса в мифике, или взять 2000 рейтинга на арене - обращайтесь.</p>
+      </div> <!-- Закрывает блок skill -->
+  </div> <!-- Закрывает блок skills -->
+  <a href="#work" class="btn">Мои работы</a>
+</section>
+
+<!-- Обо мне -->
+<section class="about-me" id="about">
+  <h2 class="section__title section__title--about">Вкратце обо мне</h2>
+  <p class="section__subtitle section__subtitle--about">Начинаюший фронт-энд разработчик из Москвы</p>
+
+  <div class="about-me__body">
+    <p>Студент 4 курса направления «Информатика и вычислительная техника» университета НИТУ «МИСИС». Последний год стажировался и работал junior front-end разработчиком. Быстро адаптируюсь под поставленную задачу и добираю необходимые скиллы исходя из проекта. Большой опыт работы в команде. Гибко и эффективно распределяю время на поставленные задачи. Свободно разговариваю и пишу на английском, работаю с документациями и учебными материалами на нем же.
+    </p>
+    <p>Занимался версткой и разработкой отдельных частей и страниц больших проектов, в том числе:
+      - Верстка отдельных элементов обновленного сайта университета ВШЭ(HTML+CSS, JS)
+      - Разработка и верстка страниц системы управления персоналом Clue для x5 Group(React+HTML,CSS).</p>
+  </div>
+  <img src="img/RVXa1GDYtXc.jpg" alt="Я модняво сижу в таетре" class="about-me__img">
+</section>
+
+<!-- Мои работы -->
+
+<section class="my-work" id="work">
+  <h2 class="section_title"> Мое портфолио </h2>
+  <p class="section__subtitle"> Гит с проектами, над которым я работал </p>
+  <a href="https://github.com/winterwillhere/fe-projects" class="btn">Мои работы</a>
+
+</section>
+
+<!-- Подвал -->
+
+<footer class="footer" id="foot">
+  <a href="mailto:winterwillhere@list.ru" class="footer__link">winterwillhere@list.ru</a>
+  <ul class="contacts-list">
+    <li class="contacts-list__item">
+      <a href='https://t.me/taigajackal' class="contacts-list__link">
+        <i class="fa-brands fa-telegram"></i>
+      </a>
+    </li>
+    <li class="contacts-list__item">
+      <a  href="https://api.whatsapp.com/send?phone=79256121668" class="contacts-list__link">
+        <i class="fa-brands fa-whatsapp"></i>
+      </a>
+    </li>
+    <li class="contacts-list__item">
+      <a href="https://github.com/winterwillhere/fe-projects" class="contacts-list__link">
+        <i class="fa-brands fa-github"></i>
+      </a>
+    </li>
+    <li class="contacts-list__item">
+      <a class="contacts-list__link">
+
+      </a>
+    </li>
+  </ul>
+</footer>
+<script src="navbutton.js"></script>
+</body>
+
+</html>
